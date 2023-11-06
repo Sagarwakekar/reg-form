@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    display: inline-block;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+    
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin: 20px;
+    width: 90%;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+#div_user_form{
+    display: inline-flex;
+    width: 30%;
+     background-color: antiquewhite;
+}
+
+#div_data_table{
+    display: inline-flex;
+    width: 65%;
+    background-color:antiquewhite ;
+}

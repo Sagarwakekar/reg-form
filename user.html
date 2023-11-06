@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form with Table</title>
+    <link rel="stylesheet" href="./user.css" />
+  </head>
+  <body>
+
+    <div id="div_user_form">
+      <form id="userForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" placeholder="Enter Your Name" id="firstName" name="firstName" required>
+        <br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" placeholder="Enter Your Last Name" id="lastName" name="lastName" required />
+        <br />
+
+        <button type="button" id="saveButton">Save</button>
+        <button type="button" id="clearButton">Clear</button>
+        
+      </form>
+    </div>
+    
+    <div id="div_data_table">
+      <table id="dataTable">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./user-3.js"></script>
+
+  </body>
+</html>
